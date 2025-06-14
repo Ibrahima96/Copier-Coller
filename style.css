@@ -10,6 +10,34 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   padding-top: 75px;
   background-color: #131313;
+  padding:50px 29px ;
 }
 
+.card{
+  max-width: 500px;
+  margin: 15px auto;
+  background: #f4f3f3;
+  padding: 20px 45px;
+  position: relative;
+  border-radius: 8px;
+}
+.card p{
+  padding: 8px;
+  font-size: 14px;
+}
+button{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 7px 12px;
+  border-radius: 9999px;
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  background: #ffff;
+}
 
