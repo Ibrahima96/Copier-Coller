@@ -4,11 +4,8 @@ let runningAnimation = false;
 function handleClick(e) {
   navigator.clipboard.writeText(e.target.previousElementSibling.textContent);
   if (!runningAnimation) {
-    
     runningAnimation=true
-
      e.target.textContent = "copiée 🎊";
-
      setTimeout(() => {
         e.target.textContent = "Copier 📚";
         runningAnimation = false;
